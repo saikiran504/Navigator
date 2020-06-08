@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#F1F3EC06"
+    android:gravity="bottom"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="75dp"
+        android:src="@drawable/ic_motorcycle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="www.foodorders.com"
+        android:textSize="14sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
